@@ -1,4 +1,5 @@
 {
-  "hello": "¡Hola, Mundo!",
-  "welcome": "Bienvenido a nuestra aplicación"
+  "hello": "¡Padres, tengan en cuenta!",
+  "welcome": "La Academia Americana de Pediatría sugiere limitar el tiempo de pantalla a una hora al día para niños de 2 a 5 años, con contenido de alta calidad y supervisado por los padres.",
+  "test" : "Mensaje de prueba"
 }

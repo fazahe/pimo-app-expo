@@ -1,5 +1,5 @@
 {
-  "name": "pimo-app",
+  "name": "Pimo",
   "version": "1.0.0",
   "main": "expo/AppEntry.js",
   "scripts": {
@@ -13,16 +13,20 @@
     "@react-navigation/stack": "^6.4.1",
     "@types/react": "~18.2.79",
     "expo": "~51.0.22",
+    "expo-app-loading": "^2.1.1",
+    "expo-font": "~12.0.9",
     "expo-status-bar": "~1.12.1",
     "i18next": "^23.12.2",
     "intl-pluralrules": "^2.0.1",
     "react": "18.2.0",
     "react-i18next": "^15.0.0",
     "react-native": "0.74.3",
-    "typescript": "~5.3.3"
+    "typescript": "~5.3.3",
+    "expo-splash-screen": "~0.27.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@types/react-native": "^0.73.0"
   },
   "private": true
 }
