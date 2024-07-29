@@ -10,11 +10,11 @@ const globalStyles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    paddingHorizontal: 32,
+    paddingHorizontal: 20,
   },
   containerbutton: {
     flex: 0.15,
-    paddingHorizontal: 32,
+    paddingHorizontal: 20,
   },
   contheader: {
     textAlign: "center",
@@ -29,22 +29,30 @@ const globalStyles = StyleSheet.create({
     resizeMode: 'contain',
   },
   parents: {
-    marginTop: -32,
+    marginTop: -100,
     width: 200,
     resizeMode: 'contain',
+    marginBottom: spacing.large,
+  },
+  sons: {
+    marginTop: -100,
+    width: 180,
+    resizeMode: 'contain',
+    marginBottom: spacing.large,
   },
   title: {
     fontFamily: 'nunito-black',
     fontSize: 25,
     color: colors.title,
     marginBottom: spacing.large,
+    textAlign: 'center',
   },
 
   paragraph: {
     fontFamily: 'poppins-regular',
     fontSize: 14,
     color: colors.text,
-    textAlign: "center",
+    textAlign: 'center',
   },
   button: {
     fontFamily: 'nunito-black',
@@ -58,7 +66,18 @@ const globalStyles = StyleSheet.create({
   },
   buttonText: {
     fontFamily: 'nunito-black',
-    fontSize: 16,
+    fontSize: 18,
+    color: colors.white,
+  },
+  input: {
+    fontFamily: 'nunito-black',
+    fontSize: 20,
+    borderBottomWidth: 1,
+    borderBottomColor: colors.text,
+    width: '100%',
+    textAlign: 'center',
+    paddingVertical: 16,
+    marginTop: spacing.medium,
   },
 });
 

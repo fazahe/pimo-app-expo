@@ -4,6 +4,8 @@ export const colors = {
     background: '#FCFCF7',
     title: '#1E2130',
     text: '#4D4D4D',
+    white: '#fff',
+    black : '#25282a',
   };
   
   export const spacing = {
