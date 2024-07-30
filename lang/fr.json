@@ -12,5 +12,11 @@
    "greeting": "Bonjour !",
    "greetingcomplement": "J'espère que tu es prêt à jouer",
    "titledash": "Bonjour",
-   "textdash": "Commençons à jouer, sélectionne l'une des catégories"
+   "textdash": "Commençons à jouer, sélectionne l'une des catégories",
+   /*Greeting*/
+   "greeting1": "Tu es un champion !",
+   "greeting2": "Continue à sourire !",
+   "greeting3": "Bien joué !",
+   "greeting4": "Tu es très courageux !",
+   "greeting5": "Continue à jouer et à t'amuser !"
 }

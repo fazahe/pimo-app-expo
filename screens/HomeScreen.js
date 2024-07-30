@@ -13,7 +13,7 @@ const HomeScreen = ({ navigation }) => {
       <View style={globalStyles.containercenter}>
         <Image
           style={globalStyles.parents}
-          source={require("../assets/padres.png")}
+          source={require("../assets/parents.png")}
         />
         <Text style={globalStyles.title}>{t("titlewelcome")}</Text>
         <Text style={globalStyles.paragraph}>{t("textwelcome")}</Text>

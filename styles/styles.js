@@ -1,5 +1,5 @@
-import { StyleSheet } from 'react-native';
-import {colors, spacing, fonts} from './variables'
+import { StyleSheet } from "react-native";
+import { colors, spacing, fonts } from "./variables";
 
 const globalStyles = StyleSheet.create({
   containerglobal: {
@@ -8,8 +8,8 @@ const globalStyles = StyleSheet.create({
   },
   containercenter: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
     paddingHorizontal: 20,
   },
   containerbutton: {
@@ -21,65 +21,107 @@ const globalStyles = StyleSheet.create({
     top: 0,
     left: 0,
     width: "100%",
-    alignItems: 'center',
+    alignItems: "center",
     marginTop: 20,
   },
   logo: {
     width: 100,
-    resizeMode: 'contain',
+    resizeMode: "contain",
+  },
+  contheaderprimary: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    top: 0,
+    marginTop: 20,
+    alignItems: "center",
+    paddingHorizontal: 20,
+  },
+  columnheader: {
+    flex: 1,
+    alignItems: "center",
+  },
+  logoprim: {
+    width: 80,
+    resizeMode: "contain",
+    alignSelf: "flex-start",
+  },
+  avatar: {
+    borderColor: colors.secondary,
+    marginTop: 10,
+    borderWidth: 4,
+    width: 70,
+    height: 70,
+    borderRadius: 100,
+    justifyContent: "center",
+    alignItems: "center",
+    position: 'relative'
+  },
+  imgavatar: {
+    width: 60,
+    resizeMode: "contain",
+  },
+  btnheader: {
+    borderColor: colors.secondary,
+    marginTop: 10,
+    borderWidth: 4,
+    width: 50,
+    height: 50,
+    borderRadius: 100,
+    alignSelf: 'flex-end',
+    justifyContent: "center",
+    alignItems: "center",
   },
   parents: {
     marginTop: -100,
     width: 200,
-    resizeMode: 'contain',
+    resizeMode: "contain",
     marginBottom: spacing.large,
   },
   sons: {
     marginTop: -100,
     width: 180,
-    resizeMode: 'contain',
+    resizeMode: "contain",
     marginBottom: spacing.small,
   },
   title: {
-    fontFamily: 'nunito-black',
+    fontFamily: "nunito-black",
     fontSize: 25,
     color: colors.title,
     marginBottom: spacing.large,
-    textAlign: 'center',
+    textAlign: "center",
   },
 
   paragraph: {
-    fontFamily: 'poppins-regular',
+    fontFamily: "poppins-regular",
     fontSize: 14,
     color: colors.text,
-    textAlign: 'center',
+    textAlign: "center",
   },
   button: {
-    fontFamily: 'nunito-black',
+    fontFamily: "nunito-black",
     paddingVertical: 16,
     fontSize: 16,
     backgroundColor: colors.secondary,
     color: colors.text,
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: "center",
+    justifyContent: "center",
     borderRadius: 60,
   },
   buttonText: {
-    fontFamily: 'nunito-black',
+    fontFamily: "nunito-black",
     fontSize: 18,
     color: colors.white,
   },
   input: {
-    fontFamily: 'nunito-black',
+    fontFamily: "nunito-black",
     fontSize: 20,
     borderBottomWidth: 1,
     borderBottomColor: colors.text,
-    width: '100%',
-    textAlign: 'center',
+    width: "100%",
+    textAlign: "center",
     paddingVertical: 16,
     marginTop: spacing.medium,
   },
-
 });
 
 export default globalStyles;

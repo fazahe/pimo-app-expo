@@ -12,5 +12,11 @@
   "greeting": "こんにちは！",
   "greetingcomplement": "遊ぶ準備ができていることを願っています",
   "titledash": "こんにちは",
-  "textdash": "遊び始めましょう。カテゴリのいずれかを選択してください"
+  "textdash": "遊び始めましょう。カテゴリのいずれかを選択してください",
+  /*Greeting*/
+  "greeting1": "君はチャンピオンだよ！",
+  "greeting2": "笑顔を忘れずに！",
+  "greeting3": "よくやったね！",
+  "greeting4": "君はとても勇敢だよ！",
+  "greeting5": "遊び続けて楽しく過ごしてね！"
 }

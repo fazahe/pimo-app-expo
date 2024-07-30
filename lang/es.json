@@ -13,4 +13,10 @@
   "greetingcomplement": "espero estes listo para jugar",
   "titledash": "Hola",
   "textdash": "Empecemos a jugar, selecciona un a de las categorias ",
+  /*Greeting*/
+  "greeting1": "¡Eres un campeón!",
+  "greeting2": "¡Sigue sonriendo!",
+  "greeting3": "¡Qué bien lo hiciste!",
+  "greeting4": "¡Eres muy valiente!",
+  "greeting5": "¡Sigue jugando y divirtiéndote!",
 }
