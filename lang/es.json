@@ -1,5 +1,16 @@
 {
-  "hello": "¡Padres, tengan en cuenta!",
-  "welcome": "La Academia Americana de Pediatría sugiere limitar el tiempo de pantalla a una hora al día para niños de 2 a 5 años, con contenido de alta calidad y supervisado por los padres.",
-  "test" : "Mensaje de prueba"
+  /* Warning Start Screen */
+  "titlewelcome": "¡Padres, tengan en cuenta!",
+  "textwelcome": "La Academia Americana de Pediatría sugiere limitar el tiempo de pantalla a una hora al día para niños de 2 a 5 años, con contenido de alta calidad y supervisado por los padres.",
+  "buttonwelcome" : "Continuar",
+  /* Child Data Screen */
+  "titledata": "Una experiencia personalizada.",
+  "textdata": "Ingresa el nombre del niño o niña para crear una experiencia más inmersiva. Esto nos permitirá adaptar el contenido y hacerlo más relevante para su edad e intereses.",
+  "placeholderdata": "Ingresar el nombre del niño o niña.",
+  "buttondata" : "Comencemos",
+  /* Dashboard Screen */
+  "greeting": "¡Hola!",
+  "greetingcomplement": "espero estes listo para jugar",
+  "titledash": "Hola",
+  "textdash": "Empecemos a jugar, selecciona un a de las categorias ",
 }

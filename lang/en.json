@@ -1,5 +1,15 @@
 {
-  "hello": "Hello, World!",
-  "welcome": "Welcome to our app",
-  "test" : "Mmessenger test"
+  "titlewelcome": "Parents, please note!",
+  "textwelcome": "The American Academy of Pediatrics suggests limiting screen time to one hour a day for children aged 2 to 5, with high-quality content and parental supervision.",
+  "buttonwelcome": "Continue",
+  /* Child Data Screen */
+  "titledata": "A personalized experience.",
+  "textdata": "Enter the child's name to create a more immersive experience. This will allow us to tailor the content and make it more relevant to their age and interests.",
+  "placeholderdata": "Enter the child's name.",
+  "buttondata": "Let's start",
+  /* Dashboard Screen */
+  "greeting": "Hello!",
+  "greetingcomplement": "I hope you're ready to play",
+  "titledash": "Hello",
+  "textdash": "Let's start playing, select one of the categories"
 }

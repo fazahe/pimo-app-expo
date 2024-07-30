@@ -1,0 +1,16 @@
+{
+  /* Warning Start Screen */
+  "titlewelcome": "保護者の皆様へ",
+  "textwelcome": "アメリカ小児科学会は、2歳から5歳の子どもに対して、1日1時間の画面時間を推奨し、高品質で親による監督が必要です。",
+  "buttonwelcome": "続ける",
+  /* Child Data Screen */
+  "titledata": "パーソナライズされた体験",
+  "textdata": "より没入型の体験を作成するために、お子様の名前を入力してください。これにより、内容を調整し、お子様の年齢や興味に合わせてより関連性のあるものにできます。",
+  "placeholderdata": "お子様の名前を入力してください。",
+  "buttondata": "始めましょう",
+  /* Dashboard Screen */
+  "greeting": "こんにちは！",
+  "greetingcomplement": "遊ぶ準備ができていることを願っています",
+  "titledash": "こんにちは",
+  "textdash": "遊び始めましょう。カテゴリのいずれかを選択してください"
+}

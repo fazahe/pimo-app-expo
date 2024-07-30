@@ -1,8 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   View,
   Text,
-  Button,
   Image,
   TextInput,
   TouchableOpacity,
@@ -10,13 +9,13 @@ import {
 import globalStyles from "../styles/styles";
 import { useTranslation } from "react-i18next";
 import HeaderScreen from "../components/HeaderScreen";
-import * as Speech from "expo-speech";
 
 const DetailsScreen = ({ navigation }) => {
   const { t } = useTranslation();
+  const [childName, setChildName] = useState("");
 
-  const speak = () => {
-    Speech.speak("Hola como estas?");
+  const handleButtonPress = () => {
+    navigation.navigate("Dashboard", { childName }); // Pasar el valor del estado
   };
 
   return (
@@ -27,23 +26,21 @@ const DetailsScreen = ({ navigation }) => {
           style={globalStyles.sons}
           source={require("../assets/son.png")}
         />
-        <Text style={globalStyles.title}>Una experiencia personalizada.</Text>
-        <Text style={globalStyles.paragraph}>
-          Ingresa el nombre del niño / niña para crear una experiencia más
-          inmersiva..
-        </Text>
+        <Text style={globalStyles.title}>{t("titledata")}</Text>
+        <Text style={globalStyles.paragraph}>{t("textdata")}</Text>
         <TextInput
           style={globalStyles.input}
-          placeholder="Ingresar el nombre del niño o niña"
+          placeholder={t("placeholderdata")}
+          onChangeText={setChildName}
+          value={childName}
         />
       </View>
       <View style={globalStyles.containerbutton}>
-        <Button title="Speak" onPress={speak} />
         <TouchableOpacity
           style={[globalStyles.button]}
-          onPress={() => navigation.navigate("Details")}
+          onPress={handleButtonPress}
         >
-          <Text style={[globalStyles.buttonText]}>Empecemos</Text>
+          <Text style={[globalStyles.buttonText]}>{t("buttondata")}</Text>
         </TouchableOpacity>
       </View>
     </View>

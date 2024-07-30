@@ -1,0 +1,16 @@
+{
+   /* Warning Start Screen */
+   "titlewelcome": "Chers parents, veuillez noter !",
+   "textwelcome": "L'Académie Américaine de Pédiatrie recommande de limiter le temps d'écran à une heure par jour pour les enfants de 2 à 5 ans, avec du contenu de haute qualité et sous la supervision des parents.",
+   "buttonwelcome": "Continuer",
+   /* Child Data Screen */
+   "titledata": "Une expérience personnalisée",
+   "textdata": "Entrez le nom de l'enfant pour créer une expérience plus immersive. Cela nous permettra d'adapter le contenu et de le rendre plus pertinent pour son âge et ses intérêts.",
+   "placeholderdata": "Entrez le nom de l'enfant.",
+   "buttondata": "Commençons",
+   /* Dashboard Screen */
+   "greeting": "Bonjour !",
+   "greetingcomplement": "J'espère que tu es prêt à jouer",
+   "titledash": "Bonjour",
+   "textdash": "Commençons à jouer, sélectionne l'une des catégories"
+}

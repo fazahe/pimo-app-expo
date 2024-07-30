@@ -5,6 +5,8 @@ import { initReactI18next } from 'react-i18next';
 
 import translationsEn from './en.json';
 import translationsEs from './es.json';
+import translationsFr from './fr.json';
+import translationsJa from './ja.json';
 
 i18n
   .use(initReactI18next) // Integración de i18next con React
@@ -15,6 +17,12 @@ i18n
       },
       es: {
         translation: translationsEs,
+      },
+      fr: {
+        translation: translationsFr,
+      },
+      ja: {
+        translation: translationsJa,
       },
     },
     lng: 'es', // Idioma por defecto

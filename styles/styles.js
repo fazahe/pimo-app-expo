@@ -38,7 +38,7 @@ const globalStyles = StyleSheet.create({
     marginTop: -100,
     width: 180,
     resizeMode: 'contain',
-    marginBottom: spacing.large,
+    marginBottom: spacing.small,
   },
   title: {
     fontFamily: 'nunito-black',
@@ -79,6 +79,7 @@ const globalStyles = StyleSheet.create({
     paddingVertical: 16,
     marginTop: spacing.medium,
   },
+
 });
 
 export default globalStyles;
