@@ -12,6 +12,10 @@ const globalStyles = StyleSheet.create({
     alignItems: "center",
     paddingHorizontal: 20,
   },
+  containercenterdash: {
+    flex: 1,
+    paddingHorizontal: 20,
+  },
   containerbutton: {
     flex: 0.15,
     paddingHorizontal: 20,
@@ -87,15 +91,25 @@ const globalStyles = StyleSheet.create({
     fontFamily: "nunito-black",
     fontSize: 25,
     color: colors.title,
-    marginBottom: spacing.large,
+    marginBottom: spacing.small,
     textAlign: "center",
   },
-
+  subtitle: {
+    fontFamily: "nunito-black",
+    fontSize: 18,
+    color: colors.title,
+    marginBottom: spacing.small,
+  },
   paragraph: {
     fontFamily: "poppins-regular",
-    fontSize: 14,
+    fontSize: 16,
     color: colors.text,
     textAlign: "center",
+  },
+  paragraph_small: {
+    fontFamily: "poppins-regular",
+    fontSize: 12,
+    color: colors.text,
   },
   button: {
     fontFamily: "nunito-black",
@@ -122,6 +136,37 @@ const globalStyles = StyleSheet.create({
     paddingVertical: 16,
     marginTop: spacing.medium,
   },
+  textdash: {
+    textAlign: 'center',
+    marginBottom: spacing.large,
+  },
+  banner: {
+    width: '100%',
+  },
+  buttonbanner: {
+    width: '100%',
+    backgroundColor: colors.color1,
+    padding: spacing.large,
+    borderRadius: 8,
+    flexDirection: "row",
+    justifyContent: "space-between",
+    top: 0,
+    marginVertical: spacing.large,
+    alignItems: "center",
+    paddingHorizontal: spacing.medium,
+  },
+  contbanner: {
+    width: '60%',
+  },
+  contimgbanner: {
+    width: '40%',
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  imagebanner: {
+    width: '80%',
+    resizeMode: "contain",
+  }
 });
 
 export default globalStyles;

@@ -7,6 +7,9 @@ import {
 import globalStyles from "../styles/styles";
 import { useTranslation } from "react-i18next";
 
+import HeaderPrimary from "../components/HeaderPrimary";
+import BannerDonate from "../components/BannerDonate";
+
 const SettingsScreen = ({ navigation }) => {
   const { t, i18n } = useTranslation(); // Usa useTranslation para obtener t y i18n
 
@@ -17,6 +20,7 @@ const SettingsScreen = ({ navigation }) => {
 
   return (
     <View style={globalStyles.containerglobal}>
+      <HeaderPrimary />
       <Text style={globalStyles.title}>{t('settings')}</Text>
       <Text style={globalStyles.paragraph}>
         {t('selectLanguage')}
