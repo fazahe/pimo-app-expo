@@ -23,7 +23,7 @@ export default function App() {
     const loadResources = async () => {
       try {
         await Font.loadAsync({
-          "nunito-black": require("./assets/fonts/Nunito-Blackttf"),
+          "nunito-black": require("./assets/fonts/Nunito-Black.ttf"),
           "nunito-bold": require("./assets/fonts/Nunito-Bold.ttf"),
           "nunito-regular": require("./assets/fonts/Nunito-Regular.ttf"),
           "poppins-bold": require("./assets/fonts/Poppins-Bold.ttf"),
