@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 
 import HeaderPrimary from "../components/HeaderPrimary";
 import BannerDonate from "../components/BannerDonate";
+import Footer from "../components/Footer";
 
 const DashboardScreen = ({ route, navigation }) => {
   const { t, i18n } = useTranslation(); // Obtén t y i18n para traducciones y cambios de idioma
@@ -33,6 +34,7 @@ const DashboardScreen = ({ route, navigation }) => {
         </Text>
         <Text style={globalStyles.paragraph}>{t("textdash")}</Text>
         <BannerDonate />
+        <Footer />
       </View>
     </View>
   );

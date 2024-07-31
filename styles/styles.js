@@ -230,6 +230,55 @@ const globalStyles = StyleSheet.create({
   link: {
     color: colors.primary,
     fontFamily: "poppins-bold",
+  },
+  divider: {
+    width: '100%',
+    height: 1,
+    backgroundColor: colors.border,
+    marginBottom: 40
+  },
+  footersettings: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "top",
+    justifyContent: "left",
+    marginBottom: spacing.large,
+  },
+  footerimg: {
+    width: '15%',
+    resizeMode: "contain",
+    marginRight: '5%',
+  },
+  footercont: {
+    width: '80%',
+  },
+  textfooter: {
+    fontFamily: "poppins-regular",
+    fontSize: 10,
+    opacity: 0.5,
+  },
+  textopacity: {
+    opacity: 0.5,
+  },
+  footergen: {
+    alignItems: "center",
+    justifyContent: "center",
+    width: '100%',
+    textAlign: 'center',
+    borderTopColor: colors.border,
+    borderTopWidth: 1,
+    paddingVertical: spacing.large,
+    marginVertical: spacing.large,
+  },
+  footerlogo: {
+    width: 50,
+    resizeMode: "contain",
+  },
+  linkfooter: {
+    alignItems: "center",
+    justifyContent: "center",
+    width: '100%',
+    textAlign: 'center',
   }
 });
 

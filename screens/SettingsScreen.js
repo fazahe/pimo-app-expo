@@ -5,6 +5,7 @@ import {
   TouchableOpacity,
   ScrollView,
   Linking,
+  Image,
 } from "react-native";
 import { useNavigation, useRoute } from "@react-navigation/native";
 import globalStyles from "../styles/styles";
@@ -30,6 +31,9 @@ const SettingsScreen = () => {
 
   const handleEmailPress = () => {
     Linking.openURL("mailto:hello@fabiancreaivo.com");
+  };
+  const handleFCPress = () => {
+    Linking.openURL("https://fabiancreativo.com/");
   };
 
   return (
@@ -107,21 +111,19 @@ const SettingsScreen = () => {
               {childName ? (
                 <>
                   <Text style={globalStyles.languageButtonText}>
-                    {childName} ¿es este tu nombre?
+                    {childName} {t("nameok")}
                   </Text>
                   <Text style={[globalStyles.paragraph, globalStyles.textleft]}>
-                    Si este no es tu nombre o deseas realizar cualquier cambio,
-                    da clic aquí.
+                    {t("nameokdesc")}
                   </Text>
                 </>
               ) : (
                 <>
                   <Text style={globalStyles.languageButtonText}>
-                    No has ingresado tu nombre aún.
+                    {t("namenot")}
                   </Text>
                   <Text style={[globalStyles.paragraph, globalStyles.textleft]}>
-                    Por favor ingresa tu nombre para personalizar la
-                    experiencia.
+                    {t("namenotdesc")}
                   </Text>
                 </>
               )}
@@ -132,18 +134,40 @@ const SettingsScreen = () => {
           </TouchableOpacity>
         </View>
         <View style={globalStyles.contoptionssettings}>
-          <Text style={globalStyles.subtitle}>¿Necesitas Ayuda?</Text>
+          <Text style={globalStyles.subtitle}>{t("titlehelp")}</Text>
           <Text style={[globalStyles.paragraph, globalStyles.textleft]}>
-            Si tienes sugerencias, quejas o reclamos, por favor, contáctanos a
-            través de nuestro correo electrónico:{" "}
+            {t("titledesc1")}{" "}
             <TouchableOpacity
               onPress={handleEmailPress}
               style={globalStyles.link}
             >
               <Text style={globalStyles.link}> hello@fabiancreaivo.com</Text>
             </TouchableOpacity>
-            . Estamos aquí para ayudarte.
+            {t("titledesc2")}
           </Text>
+        </View>
+        <View style={globalStyles.divider} />
+        <View style={globalStyles.contoptionssettings}>
+          <TouchableOpacity
+            onPress={handleFCPress}
+            style={globalStyles.footersettings}
+          >
+            <Image
+              style={globalStyles.footerimg}
+              source={require("../assets/fabiancreativo.png")}
+            />
+            <View style={globalStyles.footercont}>
+              <Text
+                style={[
+                  globalStyles.languageButtonText,
+                  globalStyles.textopacity,
+                ]}
+              >
+                Powered by Fabian Creativo
+              </Text>
+              <Text style={globalStyles.textfooter}>{t("footer")}</Text>
+            </View>
+          </TouchableOpacity>
         </View>
       </ScrollView>
     </View>
