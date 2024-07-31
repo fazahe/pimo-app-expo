@@ -37,6 +37,10 @@ const HeaderPrimary = () => {
     }
   };
 
+  const handleButtonPress = () => {
+    navigation.navigate("Settings", { childName }); // Pasar el valor del estado
+  };
+
   return (
     <View style={globalStyles.contheaderprimary}>
       <View style={globalStyles.columnheader}>
@@ -56,7 +60,7 @@ const HeaderPrimary = () => {
       <View style={globalStyles.columnheader}>
         <TouchableOpacity
           style={globalStyles.btnheader}
-          onPress={() => navigation.navigate("Settings")}
+          onPress={handleButtonPress}
         >
           <Ionicons name="settings-outline" size={24} color="black" />
         </TouchableOpacity>

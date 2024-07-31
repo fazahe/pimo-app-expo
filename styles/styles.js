@@ -38,6 +38,7 @@ const globalStyles = StyleSheet.create({
     justifyContent: "left",
     alignItems: "center",
     paddingHorizontal: 20,
+    paddingBottom: 8, 
   },
   settingstitle: {
     marginStart: spacing.large,
@@ -111,7 +112,7 @@ const globalStyles = StyleSheet.create({
   },
   subtitle: {
     fontFamily: "nunito-black",
-    fontSize: 18,
+    fontSize: 20,
     color: colors.title,
     marginBottom: spacing.small,
   },
@@ -193,6 +194,22 @@ const globalStyles = StyleSheet.create({
     borderWidth: 1,
     borderRadius: 8,
   },
+  conteditname: {
+    backgroundColor: colors.white,
+    padding: spacing.large,
+    marginTop: spacing.medium,
+    borderColor: colors.border,
+    borderWidth: 1,
+    borderRadius: 8,
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    justifyContent: "left",
+  },
+  blockeditname: {
+    marginRight: spacing.medium,
+    width: '80%',
+  },
   languageButtonText: {
     fontFamily: "nunito-bold",
     fontSize: 16,
@@ -205,8 +222,15 @@ const globalStyles = StyleSheet.create({
     borderBottomWidth: 1,
   },
   activeLanguage: {
-    color: colors.secondary,
+    color: colors.primary,
   },
+  contoptionssettings: {
+    marginBottom: 40
+  },
+  link: {
+    color: colors.primary,
+    fontFamily: "poppins-bold",
+  }
 });
 
 export default globalStyles;
