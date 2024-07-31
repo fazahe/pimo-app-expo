@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "pimo-app",
+    "displayName": "pimo-app",
     "slug": "pimo-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -25,7 +26,8 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "expo-font"
+      "expo-font",
+      "expo-localization"
     ],
     "extra": {
       "eas": {

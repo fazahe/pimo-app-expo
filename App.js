@@ -1,4 +1,4 @@
-import "intl-pluralrules";
+import 'intl-pluralrules';
 import React, { useEffect, useState } from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
@@ -6,6 +6,7 @@ import { I18nextProvider } from "react-i18next";
 import i18n from "./lang/i18n";
 import * as Font from "expo-font";
 import * as SplashScreen from "expo-splash-screen";
+import * as Localization from 'expo-localization';
 
 import HomeScreen from "./screens/HomeScreen";
 import DetailsScreen from "./screens/DetailsScreen";
@@ -29,6 +30,10 @@ export default function App() {
           "poppins-bold": require("./assets/fonts/Poppins-Bold.ttf"),
           "poppins-regular": require("./assets/fonts/Poppins-Regular.ttf"),
         });
+
+        // Configura el idioma según el idioma del sistema
+        const systemLanguage = Localization.locale.split('-')[0]; // 'en', 'es', etc.
+        i18n.changeLanguage(systemLanguage);
       } catch (e) {
         console.warn(e);
       } finally {

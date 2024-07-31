@@ -33,12 +33,6 @@ const DashboardScreen = ({ route, navigation }) => {
         </Text>
         <Text style={globalStyles.paragraph}>{t("textdash")}</Text>
         <BannerDonate />
-        <TouchableOpacity
-          style={globalStyles.button}
-          onPress={() => navigation.navigate("Settings")}
-        >
-          <Text style={globalStyles.buttonText}>{t("settingsButton")}</Text>
-        </TouchableOpacity>
       </View>
     </View>
   );

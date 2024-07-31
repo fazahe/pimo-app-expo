@@ -5,6 +5,7 @@ export const colors = {
     title: '#1E2130',
     text: '#4D4D4D',
     white: '#fff',
+    border: '#E8E8E8',
     black : '#25282a',
     color1 : '#FFF1D4',
     color2 : '#FFC682',

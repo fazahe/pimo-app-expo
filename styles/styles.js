@@ -28,6 +28,21 @@ const globalStyles = StyleSheet.create({
     alignItems: "center",
     marginTop: 20,
   },
+  settingsheader: {
+    top: 0,
+    left: 0,
+    width: "100%",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    marginTop:50,
+    justifyContent: "left",
+    alignItems: "center",
+    paddingHorizontal: 20,
+  },
+  settingstitle: {
+    marginStart: spacing.large,
+    marginTop: spacing.medium,
+  },
   logo: {
     width: 100,
     resizeMode: "contain",
@@ -140,6 +155,9 @@ const globalStyles = StyleSheet.create({
     textAlign: 'center',
     marginBottom: spacing.large,
   },
+  textleft: {
+    textAlign: 'left',
+  },
   banner: {
     width: '100%',
   },
@@ -166,7 +184,29 @@ const globalStyles = StyleSheet.create({
   imagebanner: {
     width: '80%',
     resizeMode: "contain",
-  }
+  },
+  contlangselect: {
+    backgroundColor: colors.white,
+    padding: spacing.large,
+    marginTop: spacing.medium,
+    borderColor: colors.border,
+    borderWidth: 1,
+    borderRadius: 8,
+  },
+  languageButtonText: {
+    fontFamily: "nunito-bold",
+    fontSize: 16,
+    paddingVertical: spacing.small,
+    borderBottomColor: colors.border,
+    borderBottomWidth: 5,
+  },
+  borderbottom: {
+    borderBottomColor: colors.border,
+    borderBottomWidth: 1,
+  },
+  activeLanguage: {
+    color: colors.secondary,
+  },
 });
 
 export default globalStyles;

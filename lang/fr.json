@@ -12,11 +12,22 @@
    "greeting": "Bonjour !",
    "greetingcomplement": "J'espère que tu es prêt à jouer",
    "titledash": "Bonjour",
-   "textdash": "Commençons à jouer, sélectionne l'une des catégories",
+   "textdash": "Il est temps de s'amuser ! Choisis une catégorie pour commencer à jouer et à apprendre.",
    /*Greeting*/
    "greeting1": "Tu es un champion !",
    "greeting2": "Continue à sourire !",
    "greeting3": "Bien joué !",
    "greeting4": "Tu es très courageux !",
-   "greeting5": "Continue à jouer et à t'amuser !"
+   "greeting5": "Continue à jouer et à t'amuser !",
+   /*Banner Donate*/
+   "titlebanner": "Soutenez Pimo!",
+   "donationMessage": "Votre don aide plus d'enfants à apprendre et à s'amuser avec Pimo. Contribuez à la croissance de notre application et faites de chaque jour un jour spécial. Merci pour votre soutien !",
+   /*Settings*/
+   "titlesettings": "Paramètres",
+   "titlelang": "Langue",
+   "desclang": "Changez la langue pour le texte et la voix. Cela peut aider votre enfant à commencer ou à faire ses premiers pas dans une autre langue.",
+   "en": "Anglais",
+   "es": "Espagnol",
+   "fr": "Français",
+   "ja": "Japonais",
 }
