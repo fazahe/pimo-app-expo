@@ -291,7 +291,7 @@ const globalStyles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   BoxCategory: {
-    width: '45.8%', // Ajusta según sea necesario
+    width: '45.3%', // Ajusta según sea necesario
     height: 200,
     backgroundColor: '#eee',
     borderRadius: 8,
