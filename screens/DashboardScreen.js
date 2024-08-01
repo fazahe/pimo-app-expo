@@ -32,7 +32,7 @@ const DashboardScreen = ({ route, navigation }) => {
     <View style={globalStyles.containerglobal}>
       <HeaderPrimary navigation={navigation} childName={childName} />
       <ScrollView style={globalStyles.containercenterdash}>
-        {selectedCategory === 'Category1' && <CategoryAnimals />}
+        {selectedCategory === 'Category1' && <CategoryAnimals childName={childName}  />}
         {!selectedCategory && <GroupCategory childName={childName} onSelectCategory={handleSelectCategory} />}
         <Footer />
       </ScrollView>

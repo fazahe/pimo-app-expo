@@ -40,4 +40,21 @@
   "titledesc1": "ご提案、ご不満、ご質問がある場合は、私のメールアドレスまでご連絡ください:",
   "titledesc2": ". お手伝いします。",
   "footer": "このアプリは、私の大切な息子レナートのために、たくさんの愛を込めて作成されました。楽しく教育的な体験を提供するために、すべての詳細が慎重に考えられています。このアプリが多くの子どもたちと親たちに喜びと学びをもたらすことを願っています。私たちにとってそうであったように。",
+  /* Categories */
+  "titlecat1": "動物",
+  "titlecat2": "食べ物",
+  "titlecat3": "形と色",
+  "titlecat4": "乗り物",
+  "titlecat5": "服",
+  "titlecat6": "果物",
+  "titlecat7": "野菜",
+  "titlecat8": "物",
+  "titlecat9": "楽器",
+  "titlecat10": "スポーツ",
+  "titlecat11": "自然",
+  /* Category welcome greetings */
+  "categorywelcome1": "について学びましょう",
+  "categorywelcome2": "のすべてを発見しましょう",
+  "categorywelcome3": "探検するのにぴったりな時です",
+  "categorywelcome4": "は選択したカテゴリです。もっと学びましょう",
 }

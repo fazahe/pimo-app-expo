@@ -38,6 +38,7 @@ const HeaderPrimary = () => {
   };
 
   const handleButtonPress = () => {
+    Speech.stop(); // Detener cualquier reproducción de audio en curso
     navigation.navigate("Settings", { childName }); // Pasar el valor del estado
   };
 

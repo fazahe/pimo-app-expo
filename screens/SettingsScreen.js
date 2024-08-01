@@ -11,27 +11,31 @@ import { useNavigation, useRoute } from "@react-navigation/native";
 import globalStyles from "../styles/styles";
 import { useTranslation } from "react-i18next";
 import { Ionicons } from "@expo/vector-icons";
+import * as Speech from "expo-speech";
 
 import HeaderSettings from "../components/HeaderSettings";
 import BannerDonate from "../components/BannerDonate";
 
 const SettingsScreen = () => {
-  const { t, i18n } = useTranslation(); // Usa useTranslation para obtener t y i18n
+  const { t, i18n } = useTranslation();
   const route = useRoute();
-  const navigation = useNavigation(); // Usa useNavigation para obtener la función de navegación
+  const navigation = useNavigation();
   const { childName } = route.params || {};
 
-  // Función para cambiar el idioma
   const changeLanguage = (lang) => {
+    
     i18n.changeLanguage(lang);
+    setTimeout(() => {
+      Speech.stop(); // Detener cualquier reproducción de audio en curso después de 0.5 segundos
+    }, 100);
   };
 
-  // Obtener el idioma actualmente seleccionado
   const currentLanguage = i18n.language;
 
   const handleEmailPress = () => {
     Linking.openURL("mailto:hello@fabiancreaivo.com");
   };
+
   const handleFCPress = () => {
     Linking.openURL("https://fabiancreativo.com/");
   };
@@ -105,7 +109,12 @@ const SettingsScreen = () => {
           </Text>
           <TouchableOpacity
             style={globalStyles.conteditname}
-            onPress={() => navigation.navigate("Details")} // Navega a DetailsScreen
+            onPress={() => {
+              setTimeout(() => {
+                Speech.stop(); // Detener cualquier reproducción de audio en curso después de 0.5 segundos
+              }, 500);
+              navigation.navigate("Details");
+            }}
           >
             <View style={globalStyles.blockeditname}>
               {childName ? (

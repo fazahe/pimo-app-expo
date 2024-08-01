@@ -40,4 +40,21 @@
   "titledesc1": "Si vous avez des suggestions, des plaintes ou des préoccupations, veuillez me contacter par e-mail:",
   "titledesc2": ". Je suis là pour aider.",
   "footer": "Cette application a été créée avec beaucoup d'amour pour mon cher fils Renato. Chaque détail a été pensé avec soin pour offrir une expérience amusante et éducative. J'espère que cette application apportera joie et apprentissage à de nombreux enfants et parents, tout comme elle l'a fait pour nous.",
+  /* Categories */
+  "titlecat1": "Animaux",
+  "titlecat2": "Nourriture",
+  "titlecat3": "Formes et Couleurs",
+  "titlecat4": "Véhicules",
+  "titlecat5": "Vêtements",
+  "titlecat6": "Fruits",
+  "titlecat7": "Légumes",
+  "titlecat8": "Objets",
+  "titlecat9": "Instruments Musicaux",
+  "titlecat10": "Sports",
+  "titlecat11": "Nature",
+  /* Category welcome greetings */
+  "categorywelcome1": "Apprenons sur",
+  "categorywelcome2": "Découvrez tout ce qu'il faut savoir sur",
+  "categorywelcome3": "C'est le moment parfait pour explorer",
+  "categorywelcome4": "est la catégorie que vous avez sélectionnée, apprenons-en plus",
 }
