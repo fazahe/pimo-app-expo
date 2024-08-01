@@ -136,14 +136,13 @@ const SettingsScreen = () => {
         <View style={globalStyles.contoptionssettings}>
           <Text style={globalStyles.subtitle}>{t("titlehelp")}</Text>
           <Text style={[globalStyles.paragraph, globalStyles.textleft]}>
-            {t("titledesc1")}{" "}
+            {t("titledesc1")}
             <TouchableOpacity
               onPress={handleEmailPress}
               style={globalStyles.link}
             >
-              <Text style={globalStyles.link}> hello@fabiancreaivo.com</Text>
+              <Text style={globalStyles.link}>hello@fabiancreaivo.com</Text>
             </TouchableOpacity>
-            {t("titledesc2")}
           </Text>
         </View>
         <View style={globalStyles.divider} />

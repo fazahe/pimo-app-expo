@@ -7,14 +7,15 @@ export const colors = {
     white: '#fff',
     border: '#E8E8E8',
     black : '#25282a',
-    color1 : '#FFF1D4',
-    color2 : '#FFC682',
-    color3 : '#E5EC91',
-    color4 : '#BCBBF5',
-    color5 : '#B5B5CE',
-    color6 : '#CEB5CB',
-    color7 : '#CEB5B5',
-    color8 : '#7CC8C2',
+    color1 : '#fde2e4',
+
+    color2 : '#fad2e1',
+    color3 : '#fff1e6',
+    color4 : '#e2ece9',
+    color5 : '#bee1e6',
+    color6 : '#cddafd',
+    color7 : '#dfe7fd',
+    color8 : '#cddafd',
   };
   
   export const spacing = {

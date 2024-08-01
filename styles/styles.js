@@ -52,7 +52,7 @@ const globalStyles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     top: 0,
-    marginTop: 20,
+    marginTop: 30,
     alignItems: "center",
     paddingHorizontal: 20,
   },
@@ -64,6 +64,7 @@ const globalStyles = StyleSheet.create({
     width: 80,
     resizeMode: "contain",
     alignSelf: "flex-start",
+    marginBottom: -20,
   },
   avatar: {
     borderColor: colors.secondary,
@@ -115,6 +116,9 @@ const globalStyles = StyleSheet.create({
     fontSize: 20,
     color: colors.title,
     marginBottom: spacing.small,
+    position: 'relative',
+    zIndex: 2,
+    lineHeight: 22,
   },
   paragraph: {
     fontFamily: "poppins-regular",
@@ -203,8 +207,8 @@ const globalStyles = StyleSheet.create({
     borderRadius: 8,
     flexDirection: "row",
     justifyContent: "space-between",
-    alignItems: "center",
-    justifyContent: "left",
+    alignItems: "top",
+    justifyContent: "center",
   },
   blockeditname: {
     marginRight: spacing.medium,
@@ -214,8 +218,6 @@ const globalStyles = StyleSheet.create({
     fontFamily: "nunito-bold",
     fontSize: 16,
     paddingVertical: spacing.small,
-    borderBottomColor: colors.border,
-    borderBottomWidth: 5,
   },
   borderbottom: {
     borderBottomColor: colors.border,
@@ -228,6 +230,7 @@ const globalStyles = StyleSheet.create({
     marginBottom: 40
   },
   link: {
+    fontSize: 16,
     color: colors.primary,
     fontFamily: "poppins-bold",
   },
@@ -279,7 +282,62 @@ const globalStyles = StyleSheet.create({
     justifyContent: "center",
     width: '100%',
     textAlign: 'center',
-  }
+  },
+  contcategory: {
+    width: '100%',
+    flex: 1,
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between',
+  },
+  BoxCategory: {
+    width: '45.8%', // Ajusta según sea necesario
+    height: 200,
+    backgroundColor: '#eee',
+    borderRadius: 8,
+    margin: spacing.small,
+    position: 'relative',
+    overflow: 'hidden',
+  },
+  imagboxcat: {
+    width: 200,
+    height: 200,
+    position: 'absolute',
+    bottom: -40,
+    right: -40,
+    zIndex: 1,
+  },
+  touchboxcat: {
+    width: '100%',
+    height: '100%',
+    position: "relative",
+    overflow: 'hidden',
+    padding: spacing.medium
+  },
+  color1: {
+    backgroundColor: colors.color1,
+  },
+  color2: {
+    backgroundColor: colors.color2,
+  },
+  color3: {
+    backgroundColor: colors.color3,
+  },
+  color4: {
+    backgroundColor: colors.color4,
+  },
+  color5: {
+    backgroundColor: colors.color5,
+  },
+  color6: {
+    backgroundColor: colors.color6,
+  },
+  color7: {
+    backgroundColor: colors.color7,
+  },
+  color8: {
+    backgroundColor: colors.color8,
+  },
 });
 
 export default globalStyles;
