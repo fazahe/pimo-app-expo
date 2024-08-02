@@ -40,7 +40,9 @@
   "titledesc1": "Si tienes sugerencias, quejas o reclamos, por favor, cantactame a través de mi correo electrónico:",
   "titledesc2": ". Estoy aquí para ayudarte.",
   "footer": "Esta aplicación fue creada con mucho amor para mi querido hijo Renato. Cada detalle ha sido pensado con cariño para ofrecer una experiencia divertida y educativa. Espero que esta app brinde alegría y aprendizaje a muchos niños y padres, tal como lo ha hecho para nosotros.",
+  "powerby": "Fabián Creativo",
   /*Categories*/
+  "titlecat0": "Categoría",
   "titlecat1": "Animales",
   "titlecat2": "Comida",
   "titlecat3": "Formas y colores",
@@ -57,4 +59,10 @@
   "categorywelcome2": "Descubre todo lo que hay que saber sobres",
   "categorywelcome3": "Es el momento perfecto para explorar",
   "categorywelcome4": "es la categoría que seleccionaste, ¡vamos a aprender más",
+  /*Category Animals*/
+  "horse": "Caballo",
+  "dog": "Perro",
+  "cat": "Gato",
+  "cow": "Vaca",
+  "bird": "Pajaro",
 }

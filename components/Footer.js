@@ -17,7 +17,7 @@ export default function Footer() {
           style={globalStyles.footerlogo}
           source={require("../assets/fabiancreativo.png")}
         />
-        <Text style={globalStyles.textfooter}>Powered by Fabian Creativo</Text>
+        <Text style={globalStyles.textfooter}>Powered by {t("powerby")}</Text>
       </TouchableOpacity>
     </View>
   );

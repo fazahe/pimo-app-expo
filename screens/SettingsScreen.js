@@ -171,7 +171,7 @@ const SettingsScreen = () => {
                   globalStyles.textopacity,
                 ]}
               >
-                Powered by Fabian Creativo
+                Powered by {t("powerby")}
               </Text>
               <Text style={globalStyles.textfooter}>{t("footer")}</Text>
             </View>

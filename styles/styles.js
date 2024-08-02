@@ -34,11 +34,11 @@ const globalStyles = StyleSheet.create({
     width: "100%",
     flexDirection: "row",
     justifyContent: "space-between",
-    marginTop:50,
+    marginTop: 50,
     justifyContent: "left",
     alignItems: "center",
     paddingHorizontal: 20,
-    paddingBottom: 8, 
+    paddingBottom: 8,
   },
   settingstitle: {
     marginStart: spacing.large,
@@ -75,7 +75,7 @@ const globalStyles = StyleSheet.create({
     borderRadius: 100,
     justifyContent: "center",
     alignItems: "center",
-    position: 'relative'
+    position: "relative",
   },
   imgavatar: {
     width: 60,
@@ -88,7 +88,7 @@ const globalStyles = StyleSheet.create({
     width: 50,
     height: 50,
     borderRadius: 100,
-    alignSelf: 'flex-end',
+    alignSelf: "flex-end",
     justifyContent: "center",
     alignItems: "center",
   },
@@ -116,7 +116,7 @@ const globalStyles = StyleSheet.create({
     fontSize: 20,
     color: colors.title,
     marginBottom: spacing.small,
-    position: 'relative',
+    position: "relative",
     zIndex: 2,
     lineHeight: 22,
   },
@@ -157,17 +157,17 @@ const globalStyles = StyleSheet.create({
     marginTop: spacing.medium,
   },
   textdash: {
-    textAlign: 'center',
+    textAlign: "center",
     marginBottom: spacing.large,
   },
   textleft: {
-    textAlign: 'left',
+    textAlign: "left",
   },
   banner: {
-    width: '100%',
+    width: "100%",
   },
   buttonbanner: {
-    width: '100%',
+    width: "100%",
     backgroundColor: colors.color1,
     padding: spacing.large,
     borderRadius: 8,
@@ -179,15 +179,15 @@ const globalStyles = StyleSheet.create({
     paddingHorizontal: spacing.medium,
   },
   contbanner: {
-    width: '60%',
+    width: "60%",
   },
   contimgbanner: {
-    width: '40%',
+    width: "40%",
     alignItems: "center",
     justifyContent: "center",
   },
   imagebanner: {
-    width: '80%',
+    width: "80%",
     resizeMode: "contain",
   },
   contlangselect: {
@@ -212,7 +212,7 @@ const globalStyles = StyleSheet.create({
   },
   blockeditname: {
     marginRight: spacing.medium,
-    width: '80%',
+    width: "80%",
   },
   languageButtonText: {
     fontFamily: "nunito-bold",
@@ -227,7 +227,7 @@ const globalStyles = StyleSheet.create({
     color: colors.primary,
   },
   contoptionssettings: {
-    marginBottom: 40
+    marginBottom: 40,
   },
   link: {
     fontSize: 16,
@@ -235,10 +235,10 @@ const globalStyles = StyleSheet.create({
     fontFamily: "poppins-bold",
   },
   divider: {
-    width: '100%',
+    width: "100%",
     height: 1,
     backgroundColor: colors.border,
-    marginBottom: 40
+    marginBottom: 40,
   },
   footersettings: {
     flexDirection: "row",
@@ -248,12 +248,12 @@ const globalStyles = StyleSheet.create({
     marginBottom: spacing.large,
   },
   footerimg: {
-    width: '15%',
+    width: "15%",
     resizeMode: "contain",
-    marginRight: '5%',
+    marginRight: "5%",
   },
   footercont: {
-    width: '80%',
+    width: "80%",
   },
   textfooter: {
     fontFamily: "poppins-regular",
@@ -266,8 +266,8 @@ const globalStyles = StyleSheet.create({
   footergen: {
     alignItems: "center",
     justifyContent: "center",
-    width: '100%',
-    textAlign: 'center',
+    width: "100%",
+    textAlign: "center",
     borderTopColor: colors.border,
     borderTopWidth: 1,
     paddingVertical: spacing.large,
@@ -280,39 +280,60 @@ const globalStyles = StyleSheet.create({
   linkfooter: {
     alignItems: "center",
     justifyContent: "center",
-    width: '100%',
-    textAlign: 'center',
+    width: "100%",
+    textAlign: "center",
   },
   contcategory: {
-    width: '100%',
+    width: "100%",
     flex: 1,
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    justifyContent: 'space-between',
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "space-between",
   },
-  BoxCategory: {
-    width: '45.3%', // Ajusta según sea necesario
-    height: 200,
-    backgroundColor: '#eee',
+  BoxElements: {
+    width: "45.3%", // Ajusta según sea necesario
+    height: 240,
+    borderColor: colors.border,
+    borderWidth: 1,
     borderRadius: 8,
     margin: spacing.small,
-    position: 'relative',
-    overflow: 'hidden',
+    position: "relative",
+    overflow: "hidden",
+    textAlign: "center",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  BoxCategory: {
+    width: "45.3%", // Ajusta según sea necesario
+    height: 200,
+    borderRadius: 8,
+    margin: spacing.small,
+    position: "relative",
+    overflow: "hidden",
   },
   imagboxcat: {
     width: 200,
     height: 200,
-    position: 'absolute',
+    position: "absolute",
     bottom: -40,
     right: -40,
     zIndex: 1,
   },
+  imagboxelement: {
+    width: 250,
+    height: 250,
+    position: "absolute",
+    zIndex: 1,
+    left: -40,
+    top: 40,
+    right: 0,
+  },
   touchboxcat: {
-    width: '100%',
-    height: '100%',
+    width: "100%",
+    height: "100%",
     position: "relative",
-    overflow: 'hidden',
-    padding: spacing.medium
+    overflow: "hidden",
+    padding: spacing.medium,
   },
   color1: {
     backgroundColor: colors.color1,
@@ -337,6 +358,43 @@ const globalStyles = StyleSheet.create({
   },
   color8: {
     backgroundColor: colors.color8,
+  },
+  alingtextleft: {
+    textAlign: "left",
+  },
+  alingtextcenter: {
+    textAlign: "center",
+  },
+  bannercategory: {
+    position: "relative",
+    textAlign: "left",
+    overflow: "hidden",
+    padding: spacing.medium,
+    borderRadius: 8,
+    height: 150,
+    justifyContent: "center",
+    marginBottom: spacing.medium,
+  },
+  bannerimg: {
+    position: "absolute",
+    right: -50,
+    width: 250,
+    resizeMode: "contain",
+    marginBottom: spacing.large,
+  },
+  contbannetcat: {
+    width: "50%",
+  },
+  itemaudio: {
+    position: 'absolute',
+    padding: spacing.small,
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: colors.secondary,
+    bottom: spacing.small,
+    right: spacing.small,
+    zIndex: 2,
+    borderRadius: 100,
   },
 });
 

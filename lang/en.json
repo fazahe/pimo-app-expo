@@ -39,7 +39,9 @@
   "titledesc1": "If you have suggestions, complaints, or concerns, please contact me via my email:",
   "titledesc2": ". I am here to help.",
   "footer": "This app was created with much love for my dear son Renato. Every detail has been thoughtfully designed to provide a fun and educational experience. I hope this app brings joy and learning to many children and parents, just as it has for us.",
+  "powerby": "Fabian Creative",
   /* Categories */
+  "titlecat0": "Category",
   "titlecat1": "Animals",
   "titlecat2": "Food",
   "titlecat3": "Shapes and Colors",
@@ -56,4 +58,10 @@
   "categorywelcome2": "Discover everything you need to know about",
   "categorywelcome3": "It's the perfect time to explore",
   "categorywelcome4": "is the category you selected, let's learn more",
+  /*Category Animals*/
+  "horse": "Horse",
+  "dog": "Dog",
+  "cat": "Cat",
+  "cow": "Cow",
+  "bird": "Bird"
   }

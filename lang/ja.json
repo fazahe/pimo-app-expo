@@ -40,7 +40,9 @@
   "titledesc1": "ご提案、ご不満、ご質問がある場合は、私のメールアドレスまでご連絡ください:",
   "titledesc2": ". お手伝いします。",
   "footer": "このアプリは、私の大切な息子レナートのために、たくさんの愛を込めて作成されました。楽しく教育的な体験を提供するために、すべての詳細が慎重に考えられています。このアプリが多くの子どもたちと親たちに喜びと学びをもたらすことを願っています。私たちにとってそうであったように。",
+  "powerby": "Fabian Creative",
   /* Categories */
+  "titlecat0": "カテゴリー",
   "titlecat1": "動物",
   "titlecat2": "食べ物",
   "titlecat3": "形と色",
@@ -57,4 +59,10 @@
   "categorywelcome2": "のすべてを発見しましょう",
   "categorywelcome3": "探検するのにぴったりな時です",
   "categorywelcome4": "は選択したカテゴリです。もっと学びましょう",
+  /*Category Animals*/
+  "horse": "馬", // Uma
+  "dog": "犬", // Inu
+  "cat": "猫", // Neko
+  "cow": "牛", // Ushi
+  "bird": "鳥" // Tori
 }
