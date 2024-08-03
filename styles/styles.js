@@ -396,6 +396,27 @@ const globalStyles = StyleSheet.create({
     zIndex: 2,
     borderRadius: 100,
   },
+  scrollmenucategory: {
+    marginVertical: spacing.large
+  },
+  itemscroll: {
+    width: 70,
+    height: 100,
+    marginHorizontal: spacing.small,
+    alignItems: "center",
+  },
+  iconitem: {
+    backgroundColor: colors.secondary,
+    padding: spacing.medium,
+    borderRadius: 8,
+    marginBottom: spacing.small,
+  },
+  smalltext: {
+    fontFamily: "poppins-regular",
+    fontSize: 11,
+    textAlign: 'center',
+    lineHeight: 14,
+  }
 });
 
 export default globalStyles;

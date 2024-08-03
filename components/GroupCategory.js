@@ -9,23 +9,22 @@ import BannerDonate from "./BannerDonate";
 export default function GroupCategory({ childName, onSelectCategory }) {
   const { t } = useTranslation();
 
-
   return (
     <View>
       <Text style={globalStyles.title}>{t("titledash")} {childName}</Text>
       <Text style={globalStyles.paragraph}>{t("textdash")}</Text>
       <BannerDonate />
       <View style={globalStyles.contcategory}>
-        <BoxCategory
+      <BoxCategory
           name={t("titlecat1")}
           image={require("../assets/items/animals/cat.png")}
-          onSelect={() => onSelectCategory("Category1")}
+          onSelect={() => onSelectCategory("1")}
           style={globalStyles.color2}
         />
         <BoxCategory
           name={t("titlecat2")}
           image={require("../assets/items/eat/sandwich.png")}
-          onSelect={() => onSelectCategory("Category2")}
+          onSelect={() => onSelectCategory("2")}
           style={globalStyles.color4}
         />
         <BoxCategory

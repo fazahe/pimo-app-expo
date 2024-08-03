@@ -7,17 +7,17 @@ import globalStyles from "../styles/styles";
 import CarouselCategory from "./CarouselCategory";
 import BoxElements from "./BoxElements";
 
-const CategoryAnimals = ({ childName }) => {
+const CategoryFood = ({ childName }) => {
   const { t, i18n } = useTranslation();
   const translateY = useRef(new Animated.Value(50)).current; // Inicializa el valor de la animación
 
   const phrasesWithName = [
     `${t("greeting")} ${childName}! ¡${t("categorywelcome1")} ${t(
-      "titlecat1"
+      "titlecat2"
     )}!`,
-    `¡${t("categorywelcome2")} ${t("titlecat1")}!`,
-    `${childName}, ¡${t("categorywelcome3")} ${t("titlecat1")}!`,
-    `¡${t("titlecat1")} ${t("categorywelcome4")}!`,
+    `¡${t("categorywelcome2")} ${t("titlecat2")}!`,
+    `${childName}, ¡${t("categorywelcome3")} ${t("titlecat2")}!`,
+    `¡${t("titlecat2")} ${t("categorywelcome4")}!`,
   ];
 
   useEffect(() => {
@@ -46,19 +46,19 @@ const CategoryAnimals = ({ childName }) => {
   return (
     <View style={globalStyles.container}>
       <CarouselCategory />
-      <View style={[globalStyles.bannercategory, globalStyles.color2]}>
+      <View style={[globalStyles.bannercategory, globalStyles.color4]}>
         <View style={globalStyles.contbannetcat}>
           <Text style={[globalStyles.paragraph, globalStyles.alingtextleft]}>
             {t("titlecat0")}
           </Text>
           <Text style={[globalStyles.title, globalStyles.alingtextleft]}>
-            {t("titlecat1")}
+            {t("titlecat2")}
           </Text>
         </View>
 
         <Animated.Image
           style={[globalStyles.bannerimg, { transform: [{ translateY }] }]} // Aplica la animación de traducción
-          source={require("../assets/items/animals/cat.png")}
+          source={require("../assets/items/eat/sandwich.png")}
         />
       </View>
       <View style={globalStyles.contcategory}>
@@ -92,4 +92,4 @@ const CategoryAnimals = ({ childName }) => {
   );
 };
 
-export default CategoryAnimals;
+export default CategoryFood;
