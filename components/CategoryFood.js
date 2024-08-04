@@ -52,29 +52,39 @@ const CategoryFood = ({ childName }) => {
 
         <Animated.Image
           style={[globalStyles.bannerimg, { transform: [{ translateY }] }]}
-          source={require("../assets/items/eat/sandwich.png")}
+          source={require("../assets/items/food/sandwich.png")}
         />
       </View>
       <View style={globalStyles.contcategory}>
         <BoxElements
-          name={t("horse")}
-          image={require("../assets/items/animals/horse.jpg")}
-          voice={t("horse")}
+          name={t("pizza")}
+          image={require("../assets/items/food/pizza.jpg")}
+          voice={t("pizza")}
         />
         <BoxElements
-          name={t("dog")}
-          image={require("../assets/items/animals/dog.jpg")}
-          voice={t("dog")}
+          name={t("icecream")}
+          image={require("../assets/items/food/icecream.jpg")}
+          voice={t("icecream")}
         />
         <BoxElements
-          name={t("cow")}
-          image={require("../assets/items/animals/cow.jpg")}
-          voice={t("cow")}
+          name={t("apple")}
+          image={require("../assets/items/food/apple.jpg")}
+          voice={t("apple")}
         />
         <BoxElements
-          name={t("bird")}
-          image={require("../assets/items/animals/bird.jpg")}
-          voice={t("bird")}
+          name={t("banana")}
+          image={require("../assets/items/food/banana.jpg")}
+          voice={t("banana")}
+        />
+        <BoxElements
+          name={t("donuts")}
+          image={require("../assets/items/food/donuts.jpg")}
+          voice={t("donuts")}
+        />
+        <BoxElements
+          name={t("sandwich")}
+          image={require("../assets/items/food/sandwich.png")}
+          voice={t("sandwich")}
         />
       </View>
     </View>

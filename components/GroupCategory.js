@@ -23,7 +23,7 @@ export default function GroupCategory({ childName, onSelectCategory }) {
         />
         <BoxCategory
           name={t("titlecat2")}
-          image={require("../assets/items/eat/sandwich.png")}
+          image={require("../assets/items/food/sandwich.png")}
           onSelect={() => onSelectCategory("2")}
           style={globalStyles.color4}
         />

@@ -60,9 +60,25 @@
   "categorywelcome3": "探検するのにぴったりな時です",
   "categorywelcome4": "は選択したカテゴリです。もっと学びましょう",
   /*Category Animals*/
-  "horse": "馬", // Uma
-  "dog": "犬", // Inu
-  "cat": "猫", // Neko
-  "cow": "牛", // Ushi
-  "bird": "鳥" // Tori
+  "horse": "馬",
+  "dog": "犬",
+  "cat": "猫",
+  "cow": "牛",
+  "bird": "鳥",
+  "duck": "鴨",
+  "elephant": "象",
+  "lion": "ライオン",
+  "ape": "猿",
+  "tortoise": "亀",
+  "bear": "熊",
+  "penguin": "ペンギン",
+  "frog": "カエル",
+  "fish": "魚",
+  "butterfly": "蝶",
+  "snake": "蛇",
+  "panda": "パンダ",
+  "fox": "狐",
+  "mouse": "鼠",
+  "goat": "山羊",
+  
 }

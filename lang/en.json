@@ -63,5 +63,20 @@
   "dog": "Dog",
   "cat": "Cat",
   "cow": "Cow",
-  "bird": "Bird"
-  }
+  "bird": "Bird",
+  "duck": "Duck",
+  "elephant": "Elephant",
+  "lion": "Lion",
+  "ape": "Ape",
+  "tortoise": "Tortoise",
+  "bear": "Bear",
+  "penguin": "Penguin",
+  "frog": "Frog",
+  "fish": "Fish",
+  "butterfly": "Butterfly",
+  "snake": "Snake",
+  "panda": "Panda",
+  "fox": "Fox",
+  "mouse": "Mouse",
+  "goat": "Goat",
+}
