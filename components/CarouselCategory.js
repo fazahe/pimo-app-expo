@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { View, Text, TouchableOpacity, FlatList } from "react-native";
-import { useNavigation } from "@react-navigation/native";
 import { useTranslation } from "react-i18next";
 import { Ionicons } from "@expo/vector-icons";
 import globalStyles from "../styles/styles";
 
-export default function CarouselCategory() {
+export default function CarouselCategory({ onSelectCategory }) {
   const { t, i18n } = useTranslation();
-  const navigation = useNavigation();
   const [categoriesList, setCategoriesList] = useState([]);
 
   useEffect(() => {
@@ -74,7 +72,7 @@ export default function CarouselCategory() {
   const renderItem = ({ item }) => (
     <TouchableOpacity
       style={globalStyles.itemscroll}
-      onPress={() => navigation.navigate("Category", { categoryId: item.id })}
+      onPress={() => onSelectCategory(item.id)}
     >
       <View style={globalStyles.iconitem}>{item.icon}</View>
       <Text style={globalStyles.smalltext}>{item.name}</Text>

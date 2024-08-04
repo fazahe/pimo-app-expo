@@ -15,7 +15,7 @@ export default function GroupCategory({ childName, onSelectCategory }) {
       <Text style={globalStyles.paragraph}>{t("textdash")}</Text>
       <BannerDonate />
       <View style={globalStyles.contcategory}>
-      <BoxCategory
+        <BoxCategory
           name={t("titlecat1")}
           image={require("../assets/items/animals/cat.png")}
           onSelect={() => onSelectCategory("1")}

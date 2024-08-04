@@ -4,12 +4,11 @@ import * as Speech from "expo-speech";
 import { useTranslation } from "react-i18next";
 import globalStyles from "../styles/styles";
 
-import CarouselCategory from "./CarouselCategory";
 import BoxElements from "./BoxElements";
 
 const CategoryFood = ({ childName }) => {
   const { t, i18n } = useTranslation();
-  const translateY = useRef(new Animated.Value(50)).current; // Inicializa el valor de la animación
+  const translateY = useRef(new Animated.Value(50)).current;
 
   const phrasesWithName = [
     `${t("greeting")} ${childName}! ¡${t("categorywelcome1")} ${t(
@@ -21,31 +20,26 @@ const CategoryFood = ({ childName }) => {
   ];
 
   useEffect(() => {
-    // Detener cualquier reproducción de audio en curso
     Speech.stop();
 
-    // Elegir una frase aleatoria
     const randomPhrase =
       phrasesWithName[Math.floor(Math.random() * phrasesWithName.length)];
 
-    // Reproducir la frase seleccionada en el idioma actual
     Speech.speak(randomPhrase, {
-      language: i18n.language, // Cambiar el idioma según la configuración actual
+      language: i18n.language,
       pitch: 1,
       rate: 1,
     });
 
-    // Iniciar la animación de la imagen
     Animated.timing(translateY, {
-      toValue: 0, // Mover la imagen a su posición final
-      duration: 300, // Duración de la animación en milisegundos
-      useNativeDriver: true, // Usa el driver nativo para mejor rendimiento
+      toValue: 0,
+      duration: 300,
+      useNativeDriver: true,
     }).start();
   }, [childName, t, i18n.language]);
 
   return (
     <View style={globalStyles.container}>
-      <CarouselCategory />
       <View style={[globalStyles.bannercategory, globalStyles.color4]}>
         <View style={globalStyles.contbannetcat}>
           <Text style={[globalStyles.paragraph, globalStyles.alingtextleft]}>
@@ -57,34 +51,29 @@ const CategoryFood = ({ childName }) => {
         </View>
 
         <Animated.Image
-          style={[globalStyles.bannerimg, { transform: [{ translateY }] }]} // Aplica la animación de traducción
+          style={[globalStyles.bannerimg, { transform: [{ translateY }] }]}
           source={require("../assets/items/eat/sandwich.png")}
         />
       </View>
       <View style={globalStyles.contcategory}>
         <BoxElements
           name={t("horse")}
-          image={require("../assets/items/animals/horse.png")}
+          image={require("../assets/items/animals/horse.jpg")}
           voice={t("horse")}
         />
         <BoxElements
           name={t("dog")}
-          image={require("../assets/items/animals/dog.png")}
+          image={require("../assets/items/animals/dog.jpg")}
           voice={t("dog")}
         />
         <BoxElements
-          name={t("cat")}
-          image={require("../assets/items/animals/cat.png")}
-          voice={t("cat")}
-        />
-        <BoxElements
           name={t("cow")}
-          image={require("../assets/items/animals/cow.png")}
+          image={require("../assets/items/animals/cow.jpg")}
           voice={t("cow")}
         />
         <BoxElements
           name={t("bird")}
-          image={require("../assets/items/animals/bird.png")}
+          image={require("../assets/items/animals/bird.jpg")}
           voice={t("bird")}
         />
       </View>

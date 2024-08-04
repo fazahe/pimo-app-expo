@@ -4,7 +4,6 @@ import * as Speech from "expo-speech";
 import { useTranslation } from "react-i18next";
 import globalStyles from "../styles/styles";
 
-import CarouselCategory from "./CarouselCategory";
 import BoxElements from "./BoxElements";
 
 const CategoryAnimals = ({ childName }) => {
@@ -45,7 +44,6 @@ const CategoryAnimals = ({ childName }) => {
 
   return (
     <View style={globalStyles.container}>
-      <CarouselCategory />
       <View style={[globalStyles.bannercategory, globalStyles.color2]}>
         <View style={globalStyles.contbannetcat}>
           <Text style={[globalStyles.paragraph, globalStyles.alingtextleft]}>
@@ -64,12 +62,12 @@ const CategoryAnimals = ({ childName }) => {
       <View style={globalStyles.contcategory}>
         <BoxElements
           name={t("horse")}
-          image={require("../assets/items/animals/horse.png")}
+          image={require("../assets/items/animals/horse.jpg")}
           voice={t("horse")}
         />
         <BoxElements
           name={t("dog")}
-          image={require("../assets/items/animals/dog.png")}
+          image={require("../assets/items/animals/dog.jpg")}
           voice={t("dog")}
         />
         <BoxElements
@@ -79,12 +77,12 @@ const CategoryAnimals = ({ childName }) => {
         />
         <BoxElements
           name={t("cow")}
-          image={require("../assets/items/animals/cow.png")}
+          image={require("../assets/items/animals/cow.jpg")}
           voice={t("cow")}
         />
         <BoxElements
           name={t("bird")}
-          image={require("../assets/items/animals/bird.png")}
+          image={require("../assets/items/animals/bird.jpg")}
           voice={t("bird")}
         />
       </View>

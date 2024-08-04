@@ -9,6 +9,7 @@ import GroupCategory from "../components/GroupCategory";
 import Footer from "../components/Footer";
 import CategoryAnimals from "../components/CategoryAnimals";
 import CategoryFood from "../components/CategoryFood";
+import CarouselCategory from "../components/CarouselCategory";
 
 const DashboardScreen = ({ route, navigation }) => {
   const { t, i18n } = useTranslation();
@@ -33,11 +34,10 @@ const DashboardScreen = ({ route, navigation }) => {
 
   const renderCategoryComponent = () => {
     switch (selectedCategory) {
-      case "1": // Cambiado a los ids del carrusel
+      case "1":
         return <CategoryAnimals childName={childName} />;
       case "2":
         return <CategoryFood childName={childName} />;
-      // Añade aquí más casos según tus categorías
       default:
         return (
           <GroupCategory
@@ -52,6 +52,9 @@ const DashboardScreen = ({ route, navigation }) => {
     <View style={globalStyles.containerglobal}>
       <HeaderPrimary navigation={navigation} childName={childName} />
       <ScrollView style={globalStyles.containercenterdash}>
+        {selectedCategory !== null && (
+          <CarouselCategory onSelectCategory={handleSelectCategory} />
+        )}
         {renderCategoryComponent()}
         <Footer />
       </ScrollView>
