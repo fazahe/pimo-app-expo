@@ -293,6 +293,7 @@ const globalStyles = StyleSheet.create({
   BoxElements: {
     width: "45.3%", // Ajusta según sea necesario
     height: 240,
+    backgroundColor: colors.white,
     borderColor: colors.border,
     borderWidth: 1,
     borderRadius: 8,
