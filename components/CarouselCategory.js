@@ -35,6 +35,7 @@ export default function CarouselCategory({ onSelectCategory }) {
         name: t("titlecat5"),
         icon: <Ionicons name="shirt-outline" size={32} color="white" />,
       },
+      /*
       {
         id: "6",
         name: t("titlecat6"),
@@ -64,6 +65,12 @@ export default function CarouselCategory({ onSelectCategory }) {
         id: "11",
         name: t("titlecat11"),
         icon: <Ionicons name="flower-outline" size={32} color="white" />,
+      },
+      */
+      {
+        id: "12",
+        name: t("titlecat12"),
+        icon: <Ionicons name="bug-outline" size={32} color="white" />,
       },
     ];
     setCategoriesList(initialCategoriesList);

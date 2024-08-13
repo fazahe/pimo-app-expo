@@ -30,25 +30,25 @@ export default function GroupCategory({ childName, onSelectCategory }) {
         <BoxCategory
           name={t("titlecat3")}
           image={require("../assets/items/forms/circlepurple.png")}
-          onSelect={() => onSelectCategory("Category3")}
+          onSelect={() => onSelectCategory("3")}
           style={globalStyles.color7}
         />
         <BoxCategory
           name={t("titlecat4")}
           image={require("../assets/items/vehicles/car.png")}
-          onSelect={() => onSelectCategory("Category4")}
+          onSelect={() => onSelectCategory("4")}
           style={globalStyles.color3}
         />
         <BoxCategory
           name={t("titlecat5")}
           image={require("../assets/items/clothes/cap.png")}
-          onSelect={() => onSelectCategory("Category5")}
+          onSelect={() => onSelectCategory("5")}
           style={globalStyles.color6}
         />
         <BoxCategory
-          name={t("titlecat6")}
-          image={require("../assets/items/fruit/strawberries.png")}
-          onSelect={() => onSelectCategory("Category6")}
+          name={t("titlecat12")}
+          image={require("../assets/items/insects/butterfly.png")}
+          onSelect={() => onSelectCategory("12")}
           style={globalStyles.color5}
         />
       </View>

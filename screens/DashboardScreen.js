@@ -7,8 +7,14 @@ import { useTranslation } from "react-i18next";
 import HeaderPrimary from "../components/HeaderPrimary";
 import GroupCategory from "../components/GroupCategory";
 import Footer from "../components/Footer";
+
 import CategoryAnimals from "../components/CategoryAnimals";
 import CategoryFood from "../components/CategoryFood";
+import CategoryFigures from "../components/CategoryFigures";
+import CategoryVehicles from "../components/CategoryVehicles";
+import CategoryClothes from "../components/CategoryClothes";
+import CategoryInsects from "../components/CategoryInsects";
+
 import CarouselCategory from "../components/CarouselCategory";
 
 const DashboardScreen = ({ route, navigation }) => {
@@ -38,6 +44,14 @@ const DashboardScreen = ({ route, navigation }) => {
         return <CategoryAnimals childName={childName} />;
       case "2":
         return <CategoryFood childName={childName} />;
+      case "3":
+        return <CategoryFigures childName={childName} />;
+      case "4":
+        return <CategoryVehicles childName={childName} />;
+      case "5":
+        return <CategoryClothes childName={childName} />;
+      case "12":
+        return <CategoryInsects childName={childName} />;
       default:
         return (
           <GroupCategory

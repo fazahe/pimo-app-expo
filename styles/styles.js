@@ -106,10 +106,11 @@ const globalStyles = StyleSheet.create({
   },
   title: {
     fontFamily: "nunito-black",
-    fontSize: 25,
+    fontSize: 23,
     color: colors.title,
     marginBottom: spacing.small,
     textAlign: "center",
+    lineHeight: 26,
   },
   subtitle: {
     fontFamily: "nunito-black",
@@ -365,6 +366,8 @@ const globalStyles = StyleSheet.create({
   },
   alingtextcenter: {
     textAlign: "center",
+    position: "relative",
+    zIndex: 3,
   },
   bannercategory: {
     position: "relative",

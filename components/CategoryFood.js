@@ -67,6 +67,11 @@ const CategoryFood = ({ childName }) => {
           voice={t("icecream")}
         />
         <BoxElements
+          name={t("bread")}
+          image={require("../assets/items/food/bread.jpg")}
+          voice={t("bread")}
+        />
+        <BoxElements
           name={t("apple")}
           image={require("../assets/items/food/apple.jpg")}
           voice={t("apple")}
@@ -85,6 +90,61 @@ const CategoryFood = ({ childName }) => {
           name={t("sandwich")}
           image={require("../assets/items/food/sandwich.png")}
           voice={t("sandwich")}
+        />
+        <BoxElements
+          name={t("cheese")}
+          image={require("../assets/items/food/cheese.jpg")}
+          voice={t("cheese")}
+        />
+        <BoxElements
+          name={t("chicken")}
+          image={require("../assets/items/food/chicken.jpg")}
+          voice={t("chicken")}
+        />
+        <BoxElements
+          name={t("cookie")}
+          image={require("../assets/items/food/cookie.jpg")}
+          voice={t("cookie")}
+        />
+        <BoxElements
+          name={t("rice")}
+          image={require("../assets/items/food/rice.jpg")}
+          voice={t("rice")}
+        />
+        <BoxElements
+          name={t("eggs")}
+          image={require("../assets/items/food/eggs.jpg")}
+          voice={t("eggs")}
+        />
+        <BoxElements
+          name={t("spaghetti")}
+          image={require("../assets/items/food/spaghetti.jpg")}
+          voice={t("spaghetti")}
+        />
+        <BoxElements
+          name={t("soup")}
+          image={require("../assets/items/food/soup.jpg")}
+          voice={t("soup")}
+        />
+        <BoxElements
+          name={t("hamburger")}
+          image={require("../assets/items/food/hamburger.jpg")}
+          voice={t("hamburger")}
+        />
+        <BoxElements
+          name={t("hotdog")}
+          image={require("../assets/items/food/hotdog.jpg")}
+          voice={t("hotdog")}
+        />
+        <BoxElements
+          name={t("salad")}
+          image={require("../assets/items/food/salad.jpg")}
+          voice={t("salad")}
+        />
+        <BoxElements
+          name={t("chocolate")}
+          image={require("../assets/items/food/chocolate.jpg")}
+          voice={t("chocolate")}
         />
       </View>
     </View>

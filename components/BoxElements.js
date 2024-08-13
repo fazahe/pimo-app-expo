@@ -22,7 +22,7 @@ const BoxElements = ({ name, image, voice }) => {
   return (
     <View style={globalStyles.BoxElements}>
       <TouchableOpacity style={globalStyles.touchboxcat} onPress={handlePress}>
-        <Text style={[globalStyles.title, globalStyles.alingtextcenter]}>
+        <Text style={[globalStyles.subtitle, globalStyles.alingtextcenter]}>
           {name}
         </Text>
         <Image source={image} style={globalStyles.imagboxelement} />

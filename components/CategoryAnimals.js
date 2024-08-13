@@ -127,11 +127,6 @@ const CategoryAnimals = ({ childName }) => {
           voice={t("fish")}
         />
         <BoxElements
-          name={t("butterfly")}
-          image={require("../assets/items/animals/butterfly.jpg")}
-          voice={t("butterfly")}
-        />
-        <BoxElements
           name={t("snake")}
           image={require("../assets/items/animals/snake.jpg")}
           voice={t("snake")}
@@ -152,10 +147,26 @@ const CategoryAnimals = ({ childName }) => {
           voice={t("mouse")}
         />
         <BoxElements
+          name={t("rabbit")}
+          image={require("../assets/items/animals/rabbit.jpg")}
+          voice={t("rabbit")}
+        />
+        <BoxElements
           name={t("goat")}
           image={require("../assets/items/animals/goat.jpg")}
           voice={t("goat")}
         />
+        <BoxElements
+          name={t("sheep")}
+          image={require("../assets/items/animals/sheep.jpg")}
+          voice={t("sheep")}
+        />
+        <BoxElements
+          name={t("giraffe")}
+          image={require("../assets/items/animals/giraffe.jpg")}
+          voice={t("giraffe")}
+        />
+
       </View>
     </View>
   );
